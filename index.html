@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Stone Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1 class="main-title">Rock <span class="accent">Paper</span> Scissors</h1>
+        
+        <div class="score-board">
+            <div class="score-card">
+                <small>RESULT</small>
+                <h3 id="display">READY?</h3>
+            </div>
+            <div class="score-card">
+                <small>CPU PICK</small>
+                <h3 id="comDisplay">?</h3>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button id="stone" class="game-btn">🪨 <span>Stone</span></button>
+            <button id="paper" class="game-btn">📄 <span>Paper</span></button>
+            <button id="scissors" class="game-btn">✂️ <span>Scissors</span></button>
+        </div>
+        <div class="score-tracker">
+    <div class="score-box">
+        <span class="label">YOU</span>
+        <span id="user-score-val">0</span>
+    </div>
+    <div class="score-box">
+        <span class="label">CPU</span>
+        <span id="comp-score-val">0</span>
+    </div>
+</div>
+        <button id="reset" class="reset-btn">🔄 Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
